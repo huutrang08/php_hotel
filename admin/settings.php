@@ -10,7 +10,7 @@ if(!isset($_SESSION["user"]))
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SUNRISE HOTEL</title>
+    <title>LUXURY HOTEL</title>
 	<!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FontAwesome Styles-->
@@ -30,7 +30,7 @@ if(!isset($_SESSION["user"]))
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="home.php">MAIN MENU </a>
+                <a class="navbar-brand" href="home.php">MENU Chính </a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
@@ -40,12 +40,12 @@ if(!isset($_SESSION["user"]))
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Thông tin người dùng</a>
                         </li>
-                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Cài đặt</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Đăng xuất</a>
                         </li>
                     </ul>
 					
@@ -60,13 +60,13 @@ if(!isset($_SESSION["user"]))
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a class="active-menu" href="settings.php"><i class="fa fa-dashboard"></i>Room Status</a>
+                        <a class="active-menu" href="settings.php"><i class="fa fa-dashboard"></i>Trạng thái phòng</a>
                     </li>
 					<li>
-                        <a  href="room.php"><i class="fa fa-plus-circle"></i>Add Room</a>
+                        <a  href="room.php"><i class="fa fa-plus-circle"></i>Thêm phòng</a>
                     </li>
                     <li>
-                        <a   href="roomdel.php"><i class="fa fa-pencil-square-o"></i> Delete Room</a>
+                        <a   href="roomdel.php"><i class="fa fa-pencil-square-o"></i> Xóa phòng</a>
                     </li>
 					
 
@@ -81,7 +81,7 @@ if(!isset($_SESSION["user"]))
 			 <div class="row">
                     <div class="col-md-12">
                         <h1 class="page-header">
-                           Available <small> Rooms</small>
+                           Phòng <small> Khả dụng</small>
                         </h1>
                     </div>
                 </div> 

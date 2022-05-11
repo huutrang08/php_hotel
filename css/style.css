@@ -231,6 +231,9 @@ label.icon-search span {
 .navbar-right {
     margin-right: 0;
 }
+.navbar-nav{
+	display: flex;
+}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color:#fff;
     background:none;

@@ -255,9 +255,9 @@ tr:hover .cut { opacity: 1; }
 		<header>
 			<h1>Invoice</h1>
 			<address >
-				<p>SUN RISE HOTEL,</p>
+				<p>LUXURY HOTEL,</p>
 				<p>New Kalmunani Road,<br>Battialoa,<br>Sri Lanka.</p>
-				<p>(+94) 65 222 44 55</p>
+				<p>(+84) 329022414</p>
 			</address>
 			<span><img alt="" src="assets/img/sun.png"></span>
 		</header>
@@ -268,11 +268,11 @@ tr:hover .cut { opacity: 1; }
 			</address>
 			<table class="meta">
 				<tr>
-					<th><span >Invoice #</span></th>
+					<th><span >Hóa Đơn #</span></th>
 					<td><span ><?php echo $id; ?></span></td>
 				</tr>
 				<tr>
-					<th><span >Date</span></th>
+					<th><span >Ngày</span></th>
 					<td><span ><?php echo $cout; ?> </span></td>
 				</tr>
 				
@@ -280,11 +280,11 @@ tr:hover .cut { opacity: 1; }
 			<table class="inventory">
 				<thead>
 					<tr>
-						<th><span >Item</span></th>
-						<th><span >No of Days</span></th>
-						<th><span >Rate</span></th>
-						<th><span >Quantity</span></th>
-						<th><span >Price</span></th>
+						<th><span >Mục</span></th>
+						<th><span >Không ngày</span></th>
+						<th><span >Đánh giá</span></th>
+						<th><span >Số lượng</span></th>
+						<th><span >Giá</span></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -314,15 +314,15 @@ tr:hover .cut { opacity: 1; }
 			
 			<table class="balance">
 				<tr>
-					<th><span >Total</span></th>
+					<th><span >Tổng</span></th>
 					<td><span data-prefix>$</span><span><?php echo $fintot; ?></span></td>
 				</tr>
 				<tr>
-					<th><span >Amount Paid</span></th>
+					<th><span >Số tiền đã thanh toán</span></th>
 					<td><span data-prefix>$</span><span >0.00</span></td>
 				</tr>
 				<tr>
-					<th><span >Balance Due</span></th>
+					<th><span >Số dư đến hạn</span></th>
 					<td><span data-prefix>$</span><span><?php echo $fintot; ?></span></td>
 				</tr>
 			</table>
@@ -330,7 +330,7 @@ tr:hover .cut { opacity: 1; }
 		<aside>
 			<h1><span >Contact us</span></h1>
 			<div >
-				<p align="center">Email :- info@sunrise.com || Web :- www.sunrise.com || Phone :- +94 65 222 44 55 </p>
+				<p align="center">Email :- info@luxury.com || Web :- www.luxury.com || Phone :- +94 65 222 44 55 </p>
 			</div>
 		</aside>
 	</body>

@@ -12,7 +12,7 @@ ob_start();
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SUNRISE HOTEL</title>
+    <title>LUXURY HOTEL</title>
 	<!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FontAwesome Styles-->
@@ -33,7 +33,7 @@ ob_start();
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="home.php">MAIN MENU </a>
+                <a class="navbar-brand" href="home.php">MENU Chính </a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
@@ -43,12 +43,12 @@ ob_start();
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="usersetting.php"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="usersetting.php"><i class="fa fa-user fa-fw"></i> Thông tin người dùng</a>
                         </li>
-                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Cài đặt</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Đăng xuất</a>
                         </li>
                     </ul>
 					
@@ -63,7 +63,7 @@ ob_start();
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a class="active-menu" href="settings.php"><i class="fa fa-dashboard"></i>User Dashboard</a>
+                        <a class="active-menu" href="settings.php"><i class="fa fa-dashboard"></i> Bảng thông tin </a>
                     </li>
 					
 					
@@ -79,7 +79,7 @@ ob_start();
 			 <div class="row">
                     <div class="col-md-12">
                         <h1 class="page-header">
-                           ADMINISTRATOR<small> accounts </small>
+                           Tài Khoản<small> Quản trị viên </small>
                         </h1>
                     </div>
                 </div> 
@@ -100,12 +100,12 @@ ob_start();
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
-                                            <th>User ID</th>
-											<th>User name</th>
-                                            <th>Password</th>
+                                            <th> ID</th>
+											<th>Tên</th>
+                                            <th>Mật khẩu</th>
                                             
-											<th>Update</th>
-											<th>Remove</th>
+											<th>Cập nhật</th>
+											<th>Xóa</th>
                                             
                                         </tr>
                                     </thead>
@@ -159,25 +159,25 @@ ob_start();
                     <!--End Advanced Tables -->
 					<div class="panel-body">
                             <button class="btn btn-primary btn" data-toggle="modal" data-target="#myModal1">
-															Add New Admin
+															Thêm mới quản trị viên
 													</button>
                             <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                            <h4 class="modal-title" id="myModalLabel">Add the User name and Password</h4>
+                                            <h4 class="modal-title" id="myModalLabel">Thêm tài khoản và mật khẩu</h4>
                                         </div>
 										<form method="post">
                                         <div class="modal-body">
                                             <div class="form-group">
-                                            <label>Add new User name</label>
+                                            <label>Thêm tài khoản</label>
                                             <input name="newus"  class="form-control" placeholder="Enter User name">
 											</div>
 										</div>
 										<div class="modal-body">
                                             <div class="form-group">
-                                            <label>New Password</label>
+                                            <label>Mật khẩu mới</label>
                                             <input name="newps"  class="form-control" placeholder="Enter Password">
 											</div>
                                         </div>
@@ -217,18 +217,18 @@ ob_start();
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                            <h4 class="modal-title" id="myModalLabel">Change the User name and Password</h4>
+                                            <h4 class="modal-title" id="myModalLabel">Thay đổi tài khoản và mật khẩu</h4>
                                         </div>
 										<form method="post">
                                         <div class="modal-body">
                                             <div class="form-group">
-                                            <label>Change User name</label>
+                                            <label>Thay đổi tài khoản</label>
                                             <input name="usname" value="<?php echo $us; ?>" class="form-control" placeholder="Enter User name">
 											</div>
 										</div>
 										<div class="modal-body">
                                             <div class="form-group">
-                                            <label>Change Password</label>
+                                            <label>Thay đổi mật khẩu</label>
                                             <input name="pasd" value="<?php echo $ps; ?>" class="form-control" placeholder="Enter Password">
 											</div>
                                         </div>

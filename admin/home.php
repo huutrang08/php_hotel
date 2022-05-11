@@ -11,7 +11,7 @@ if(!isset($_SESSION["user"]))
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Administrator	</title>
+    <title>LUXURY Administrator	</title>
     <!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FontAwesome Styles-->
@@ -43,12 +43,12 @@ if(!isset($_SESSION["user"]))
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="usersetting.php"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="usersetting.php"><i class="fa fa-user fa-fw"></i> Thông tin người dùng</a>
                         </li>
-                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Cài Đặt</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Đăng Xuất</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -62,22 +62,22 @@ if(!isset($_SESSION["user"]))
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a class="active-menu" href="home.php"><i class="fa fa-dashboard"></i> Status</a>
+                        <a class="active-menu" href="home.php"><i class="fa fa-dashboard"></i> Trạng Thái</a>
                     </li>
                     <li>
-                        <a href="messages.php"><i class="fa fa-desktop"></i> News Letters</a>
+                        <a href="messages.php"><i class="fa fa-desktop"></i>Thư</a>
                     </li>
 					<li>
-                        <a href="roombook.php"><i class="fa fa-bar-chart-o"></i> Room Booking</a>
+                        <a href="roombook.php"><i class="fa fa-bar-chart-o"></i>Đặt Phòng</a>
                     </li>
                     <li>
-                        <a href="payment.php"><i class="fa fa-qrcode"></i> Payment</a>
+                        <a href="payment.php"><i class="fa fa-qrcode"></i>Thanh Toán</a>
                     </li>
                     <li>
-                        <a  href="profit.php"><i class="fa fa-qrcode"></i> Profit</a>
+                        <a  href="profit.php"><i class="fa fa-qrcode"></i>Lợi nhuận</a>
                     </li>
                     <li>
-                        <a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <a href="logout.php"><i class="fa fa-sign-out fa-fw"></i>Đăng Xuất</a>
                     </li>
                    
 
@@ -96,7 +96,7 @@ if(!isset($_SESSION["user"]))
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="page-header">
-                            Status <small>Room Booking </small>
+                            Trạng Thái <small>Phòng Đang đặt</small>
                         </h1>
                     </div>
                 </div>
@@ -140,7 +140,7 @@ if(!isset($_SESSION["user"]))
                                         <h4 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 											<button class="btn btn-default" type="button">
-												 New Room Bookings  <span class="badge"><?php echo $c ; ?></span>
+												 Đặt phòng  <span class="badge"><?php echo $c ; ?></span>
 											</button>
 											</a>
                                         </h4>
@@ -232,7 +232,7 @@ if(!isset($_SESSION["user"]))
                                         <h4 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed">
 											<button class="btn btn-primary" type="button">
-												 Booked Rooms  <span class="badge"><?php echo $r ; ?></span>
+												 Phòng đã đặt  <span class="badge"><?php echo $r ; ?></span>
 											</button>
 											
 											</a>
@@ -298,7 +298,7 @@ if(!isset($_SESSION["user"]))
                                         <h4 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
 											<button class="btn btn-primary" type="button">
-												 Followers  <span class="badge"><?php echo $f ; ?></span>
+												 Người theo dõi  <span class="badge"><?php echo $f ; ?></span>
 											</button>
 											</a>
                                         </h4>
@@ -341,7 +341,7 @@ if(!isset($_SESSION["user"]))
                                         
                                     </tbody>
                                 </table>
-								<a href="messages.php" class="btn btn-primary">More Action</a>
+								<a href="messages.php" class="btn btn-primary">Thêm</a>
                             </div>
                         </div>
                     </div>
@@ -358,25 +358,25 @@ if(!isset($_SESSION["user"]))
 				<!-- DEOMO-->
 				<div class='panel-body'>
                             <button class='btn btn-primary btn' data-toggle='modal' data-target='#myModal'>
-                              Update 
+                              Cập nhật 
                             </button>
                             <div class='modal fade' id='myModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
                                 <div class='modal-dialog'>
                                     <div class='modal-content'>
                                         <div class='modal-header'>
                                             <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
-                                            <h4 class='modal-title' id='myModalLabel'>Change the User name and Password</h4>
+                                            <h4 class='modal-title' id='myModalLabel'>Thay đổi tài khoản và mật khẩu</h4>
                                         </div>
 										<form method='post>
                                         <div class='modal-body'>
                                             <div class='form-group'>
-                                            <label>Change User name</label>
+                                            <label>Đổi tên người dùng</label>
                                             <input name='usname' value='<?php echo $fname; ?>' class='form-control' placeholder='Enter User name'>
 											</div>
 										</div>
 										<div class='modal-body'>
                                             <div class='form-group'>
-                                            <label>Change Password</label>
+                                            <label>Đổi mật khẩu</label>
                                             <input name='pasd' value='<?php echo $ps; ?>' class='form-control' placeholder='Enter Password'>
 											</div>
                                         </div>

@@ -11,7 +11,7 @@ if(!isset($_SESSION["user"]))
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SUNRISE HOTEL</title>
+    <title>LUXURY HOTEL</title>
 	<!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FontAwesome Styles-->
@@ -50,12 +50,12 @@ if(!isset($_SESSION["user"]))
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="usersetting.php"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="usersetting.php"><i class="fa fa-user fa-fw"></i> Thông tin người dùng</a>
                         </li>
-                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Cài đặt</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Đăng xuất</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -69,23 +69,23 @@ if(!isset($_SESSION["user"]))
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a href="home.php"><i class="fa fa-dashboard"></i> Status</a>
+                        <a href="home.php"><i class="fa fa-dashboard"></i> Trạng Thái</a>
                     </li>
                     <li>
-                        <a  href="messages.php"><i class="fa fa-desktop"></i> News Letters</a>
+                        <a  href="messages.php"><i class="fa fa-desktop"></i> Thư Mới</a>
                     </li>
 					<li>
-                        <a href="roombook.php"><i class="fa fa-bar-chart-o"></i>Room Booking</a>
+                        <a href="roombook.php"><i class="fa fa-bar-chart-o"></i>Đặt phòng</a>
                     </li>
                     <li>
-                        <a  href="payment.php"><i class="fa fa-qrcode"></i> Payment</a>
+                        <a  href="payment.php"><i class="fa fa-qrcode"></i>Thanh toán</a>
                     </li>
 					 <li>
-                        <a class="active-menu" href="profit.php"><i class="fa fa-qrcode"></i> Profit</a>
+                        <a class="active-menu" href="profit.php"><i class="fa fa-qrcode"></i> Lợi nhuận</a>
                     </li>
                     
                     <li>
-                        <a href="logout.php" ><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <a href="logout.php" ><i class="fa fa-sign-out fa-fw"></i> Đăng xuất</a>
                     </li>
                     
 
@@ -99,7 +99,7 @@ if(!isset($_SESSION["user"]))
 			 <div class="row">
                     <div class="col-md-12">
                         <h1 class="page-header">
-                           Profit Details<small> </small>
+                           Chi tiết lợi nhuận<small> </small>
                         </h1>
                     </div>
                 </div> 
