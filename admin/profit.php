@@ -72,7 +72,7 @@ if(!isset($_SESSION["user"]))
                         <a href="home.php"><i class="fa fa-dashboard"></i> Trạng Thái</a>
                     </li>
                     <li>
-                        <a  href="messages.php"><i class="fa fa-desktop"></i> Thư Mới</a>
+                        <a  href="messages.php"><i class="fa fa-desktop"></i> Thư</a>
                     </li>
 					<li>
                         <a href="roombook.php"><i class="fa fa-bar-chart-o"></i>Đặt phòng</a>

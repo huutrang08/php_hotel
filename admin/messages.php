@@ -66,13 +66,13 @@ if(!isset($_SESSION["user"]))
                         <a href="home.php"><i class="fa fa-dashboard"></i> Trạng Thái</a>
                     </li>
                     <li>
-                        <a class="active-menu" href="messages.php"><i class="fa fa-desktop"></i>Thư Mới</a>
+                        <a class="active-menu" href="messages.php"><i class="fa fa-desktop"></i>Thư</a>
                     </li>
 					<li>
                         <a href="roombook.php"><i class="fa fa-bar-chart-o"></i>Đặt Phòng</a>
                     </li>
                     <li>
-                        <a href="Payment.php"><i class="fa fa-qrcode"></i> Thanh Toán</a>
+                        <a href="Payment.php"><i class="fa fa-qrcode"></i>Thanh Toán</a>
                     </li>
                     <li>
                         <a  href="profit.php"><i class="fa fa-qrcode"></i> Lợi Nhuận</a>
