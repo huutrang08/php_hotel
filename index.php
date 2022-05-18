@@ -245,15 +245,15 @@ include('db.php');
 		<div class="container">
 			<h3 class="title-w3-agileits title-black-wthree">Ban quản lý</h3>
 			<div id="horizontalTab">
-				<ul class="resp-tabs-list">
+				<ul class="resp-tabs-list" style="display: flex;">
 					<li>
-						<img src="images/teams1.jpg" alt=" " class="img-responsive" />
+						<img src="images/11.jpg" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img src="images/teams2.jpg" alt=" " class="img-responsive" />
+						<img src="images/22.jpg" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img src="images/teams3.jpg" alt=" " class="img-responsive" />
+						<img src="images/33.jpg" alt=" " class="img-responsive" />
 					</li>
 				</ul>
 				<div class="resp-tabs-container">
