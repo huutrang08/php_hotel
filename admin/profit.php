@@ -140,14 +140,14 @@ if(!isset($_SESSION["user"]))
                                     <thead>
                                         <tr>
 											<th>ID</th>
-                                            <th>Name</th>
+                                            <th>Tên</th>
                                             <th>Check in</th>
 											<th>Check out</th>
-                                            <th>Room Rent</th>
-											<th>Bed Rent</th>
-											<th>Meals </th>
-											<th>Gr.Total</th>
-											<th>Profit</th>
+                                            <th>Giá phòng</th>
+											<th>Giá giường</th>
+											<th>Ăn uống</th>
+											<th>Tổng</th>
+											<th>Lợi Nhuận</th>
 											
                                             
                                         </tr>

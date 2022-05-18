@@ -154,17 +154,17 @@ if(!isset($_SESSION["user"]))
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th>#</th>
-                                            <th>Name</th>
+                                            <th>STT</th>
+                                            <th>Tên</th>
                                             <th>Email</th>
-                                            <th>Country</th>
-											<th>Room</th>
-											<th>Bedding</th>
-											<th>Meal</th>
+                                            <th>Quê Quán</th>
+											<th>Loại Phòng</th>
+											<th>Số giường</th>
+											<th>Chế độ ăn</th>
 											<th>Check In</th>
 											<th>Check Out</th>
-											<th>Status</th>
-											<th>More</th>
+											<th>Trạng thái</th>
+											<th>Thêm</th>
 											
                                         </tr>
                                     </thead>
@@ -311,10 +311,10 @@ if(!isset($_SESSION["user"]))
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>Full Name</th>
+                                            <th>Họ Và Tên</th>
                                             <th>Email</th>
-											<th>Follow Start</th>
-                                            <th>Permission status</th>
+											<th>Đánh giá</th>
+                                            <th>Quyền Trạng thái</th>
                                             
 											
                                         </tr>

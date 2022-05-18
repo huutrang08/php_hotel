@@ -178,57 +178,57 @@ if(!isset($_SESSION["user"]))
                                             
                                         </tr>
 										<tr>
-                                            <th>Nationality </th>
+                                            <th>Quốc tịch</th>
                                             <th><?php echo $nat; ?></th>
                                             
                                         </tr>
 										<tr>
-                                            <th>Country </th>
+                                            <th>Quê </th>
                                             <th><?php echo $country;  ?></th>
                                             
                                         </tr>
 										<tr>
-                                            <th>Phone No </th>
+                                            <th>SĐT </th>
                                             <th><?php echo $Phone; ?></th>
                                             
                                         </tr>
 										<tr>
-                                            <th>Type Of the Room </th>
+                                            <th>Loại phòng </th>
                                             <th><?php echo $troom; ?></th>
                                             
                                         </tr>
 										<tr>
-                                            <th>No Of the Room </th>
+                                            <th>Số phòng</th>
                                             <th><?php echo $nroom; ?></th>
                                             
                                         </tr>
 										<tr>
-                                            <th>Meal Plan </th>
+                                            <th>Kế hoạch ăn </th>
                                             <th><?php echo $meal; ?></th>
                                             
                                         </tr>
 										<tr>
-                                            <th>Bedding </th>
+                                            <th>Số giường </th>
                                             <th><?php echo $bed; ?></th>
                                             
                                         </tr>
 										<tr>
-                                            <th>Check-in Date </th>
+                                            <th>Ngày Check-in </th>
                                             <th><?php echo $cin; ?></th>
                                             
                                         </tr>
 										<tr>
-                                            <th>Check-out Date</th>
+                                            <th>Ngày Check-out</th>
                                             <th><?php echo $cout; ?></th>
                                             
                                         </tr>
 										<tr>
-                                            <th>No of days</th>
+                                            <th>Số ngày</th>
                                             <th><?php echo $days; ?></th>
                                             
                                         </tr>
 										<tr>
-                                            <th>Status Level</th>
+                                            <th>Cấp</th>
                                             <th><?php echo $sta; ?></th>
                                             
                                         </tr>
@@ -249,7 +249,7 @@ if(!isset($_SESSION["user"]))
 														<label>Tùy chọn chuyển đổi</label>
 														<select name="conf"class="form-control">
 															<option value selected>	</option>
-															<option value="Conform">Conform</option>
+															<option value="Conform">Xác Nhận</option>
 															
 															
 														</select>

@@ -149,7 +149,7 @@ include('db.php')
                                             </select>
                               </div>
 							  <div class="form-group">
-                                            <label>No.of Rooms *</label>
+                                            <label>Số phòng *</label>
                                             <select name="nroom" class="form-control" required>
 												<option value selected ></option>
                                                 <option value="1">1</option>

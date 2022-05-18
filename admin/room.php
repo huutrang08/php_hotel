@@ -102,10 +102,10 @@ if(!isset($_SESSION["user"]))
                                             <label>Loại phòng *</label>
                                             <select name="troom"  class="form-control" required>
 												<option value selected ></option>
-                                                <option value="Superior Room">SUPERIOR ROOM</option>
-                                                <option value="Deluxe Room">DELUXE ROOM</option>
-												<option value="Guest House">GUEST HOUSE</option>
-												<option value="Single Room">SINGLE ROOM</option>
+                                                <option value="Superior Room">Phòng Cao cấp</option>
+                                                <option value="Deluxe Room">Phòng Vip</option>
+												<option value="Guest House">Phòng khác</option>
+												<option value="Single Room">Phòng đơn</option>
                                             </select>
                               </div>
 							  
@@ -113,11 +113,11 @@ if(!isset($_SESSION["user"]))
                                             <label>Loại Giường</label>
                                             <select name="bed" class="form-control" required>
 												<option value selected ></option>
-                                                <option value="Single">Single</option>
-                                                <option value="Double">Double</option>
-												<option value="Triple">Triple</option>
-                                                <option value="Quad">Quad</option>
-												<option value="Triple">None</option>
+                                                <option value="Single">Đơn</option>
+                                                <option value="Double">Đôi</option>
+												<option value="Triple">Ba</option>
+                                                <option value="Quad">Bốn</option>
+												<option value="Triple">Không</option>
                                                                                              
                                             </select>
                                             
@@ -179,9 +179,9 @@ if(!isset($_SESSION["user"]))
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
-                                            <th>Room ID</th>
-                                            <th>Room Type</th>
-											<th>Bedding</th>
+                                            <th>ID</th>
+                                            <th>Loại phòng</th>
+											<th>Số giường</th>
                                             
                                         </tr>
                                     </thead>

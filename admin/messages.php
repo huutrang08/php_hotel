@@ -196,13 +196,13 @@ if(!isset($_SESSION["user"]))
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-											<th>Phone Number</th>
+                                            <th>Tên</th>
+											<th>SĐT</th>
                                             <th>Email</th>
-                                            <th>Date</th>
-											<th>Status</th>
-											<th>Approval</th>
-											<th>Remove</th>
+                                            <th>Ngày</th>
+											<th>Trạng Thái</th>
+											<th>Đồng ý</th>
+											<th>Di dời</th>
                                             
                                         </tr>
                                     </thead>

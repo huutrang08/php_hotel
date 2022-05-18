@@ -66,7 +66,7 @@ if(!isset($_SESSION["user"]))
                         <a href="home.php"><i class="fa fa-dashboard"></i> Trạng Thái</a>
                     </li>
                     <li>
-                        <a  href="messages.php"><i class="fa fa-desktop"></i> Thư Mới</a>
+                        <a  href="messages.php"><i class="fa fa-desktop"></i> Thư</a>
                     </li>
 					<li>
                         <a href="roombook.php"><i class="fa fa-bar-chart-o"></i>Đặt phòng</a>
@@ -108,19 +108,19 @@ if(!isset($_SESSION["user"]))
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-											<th>Room type</th>
-                                            <th>Bed Type</th>
+                                            <th>Tên</th>
+											<th>Loại Phòng</th>
+                                            <th>Loại Giường</th>
                                             <th>Check in</th>
 											<th>Check out</th>
-											<th>No of Room</th>
-											<th>Meal Type</th>
+											<th>Số phòng</th>
+											<th>Chế độ ăn</th>
 											
-                                            <th>Room Rent</th>
-											<th>Bed Rent</th>
-											<th>Meals </th>
-											<th>Gr.Total</th>
-											<th>Print</th>
+                                            <th>Giá tiền</th>
+											<th>Giá Giường</th>
+											<th>Ăn uống </th>
+											<th>Tổng</th>
+											<th>In</th>
                                             
                                         </tr>
                                     </thead>

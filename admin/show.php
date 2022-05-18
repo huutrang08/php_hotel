@@ -238,8 +238,8 @@ tr:hover .cut { opacity: 1; }
 			<table class="inventory">
 				<thead>
 					<tr>
-						<th><span >Item</span></th>
-						<th><span >No of Days</span></th>
+						<th><span >Vật phẩm</span></th>
+						<th><span >Số Ngày</span></th>
 						
 					</tr>
 				</thead>
@@ -251,7 +251,7 @@ tr:hover .cut { opacity: 1; }
 						
 					</tr>
 					<tr>
-						<td><span ><?php echo $Bed_type; ?>  Bed </span></td>
+						<td><span ><?php echo $Bed_type; ?> </span></td>
 						<td><span ><?php echo $nodays; ?></span></td>
 						
 					</tr>
