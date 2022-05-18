@@ -295,6 +295,7 @@ include('db.php');
 					</div>
 					<div class="tab3">
 						<div class="col-md-6 team-img-w3-agile">
+							
 						</div>
 						<div class="col-md-6 team-Info-agileits">
 							<h4>Hữu Trang</h4>
